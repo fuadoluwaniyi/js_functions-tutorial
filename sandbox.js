@@ -13,11 +13,33 @@
 
 // speak();
 
-// arguments and parameters
+// // arguments and parameters
 
-const speak = function(name = 'Muhaj', time = 'Night'){
-    console.log(`Good ${time} ${name} ~`)
+// const speak = function(name = 'Muhaj', time = 'Night'){
+//     console.log(`Good ${time} ${name} ~`)
+// };
+
+// speak();
+// speak('Fuad', 'Morning');
+
+// returning values
+
+// const speak = function(name = 'Muhaj', time = 'Night'){
+//     console.log(`Good ${time} ${name} ~`)
+// };
+
+// const calcArea = function(radius){
+//     let area = 3.142 * radius**2;
+//     return area;
+// };
+
+// const area = calcArea(5);
+// console.log(area);
+
+const calcArea = function(radius){
+    return 3.142 * radius**2;
 };
 
-speak();
-speak('Fuad', 'Morning');
+const area = calcArea(5);
+console.log(area);
+
