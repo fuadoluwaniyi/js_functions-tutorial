@@ -81,16 +81,28 @@
 
 // ..........................................
 
-const name = 'fuad';
+// const name = 'fuad';
 
-// functions
+// // functions
 
-const greet = () => 'hello';
+// const greet = () => 'hello';
 
-let resultOne = greet();
-console.log(resultOne);
+// let resultOne = greet();
+// console.log(resultOne);
 
-// methods
+// // methods
 
-let resultTwo = name.toUpperCase();
-console.log(resultTwo);
+// let resultTwo = name.toUpperCase();
+// console.log(resultTwo);
+
+// callbacks & foreach
+
+let people = ['fuad', 'niyi', 'muhaj', 'huswah', 'dipo'];
+
+const longPerson = (person, index) => {
+    console.log($(index), hello $(person))
+};
+
+people.forEach((person, index) => {
+    console.log(index, person);
+});
