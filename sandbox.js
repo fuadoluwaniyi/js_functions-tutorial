@@ -100,9 +100,10 @@
 let people = ['fuad', 'niyi', 'muhaj', 'huswah', 'dipo'];
 
 const longPerson = (person, index) => {
-    console.log($(index), hello $(person))
+    console.log(`${index}, hello ${person}`);
 };
 
-people.forEach((person, index) => {
-    console.log(index, person);
-});
+people.forEach(longPerson);
+// people.forEach((person, index) => {
+//     console.log(index, person);
+// });
