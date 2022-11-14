@@ -69,16 +69,28 @@
 
 // practise arrow functions (Assignment2)
 
-const bill = function(products, tax){
-    let total = 0;
-    for(let i = 0; i < products.length; i++){
-        total += products[i] + products[i] * tax;
-    }
-    return total;
-}
+// const bill = function(products, tax){
+//     let total = 0;
+//     for(let i = 0; i < products.length; i++){
+//         total += products[i] + products[i] * tax;
+//     }
+//     return total;
+// }
 
 // solutions
 
+// ..........................................
 
+const name = 'fuad';
 
+// functions
 
+const greet = () => 'hello';
+
+let resultOne = greet();
+console.log(resultOne);
+
+// methods
+
+let resultTwo = name.toUpperCase();
+console.log(resultTwo);
